@@ -1,0 +1,65 @@
+.footer {
+  height: 80vh;
+  width: 100%;
+  background: var(--bg-primary);
+  font-family: var(--font-primary);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-container {
+  width: 80%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-hero h1 {
+  margin-top: 0;
+  font-family: var(--font-landing);
+  color: white;
+  font-size: 5rem;
+  font-weight: 600;
+  line-height: 6rem;
+
+  color: white;
+  font-family: var(--font-landing);
+}
+.footer-nav {
+  margin-top: 4rem;
+}
+.footer-nav button {
+  cursor: pointer;
+  background: transparent;
+  border: 2px solid white;
+  color: white;
+  height: 50px;
+  padding: 10px 2rem;
+  font-size: 1rem;
+  border-radius: 15px;
+}
+.footer-social {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+  color: white;
+  font-size: 3rem;
+}
+.footer-social i {
+  color: white;
+  cursor: pointer;
+  margin: 0 1rem;
+  position: relative;
+}
+.footer-social i:hover {
+  animation: slide 500ms;
+}
+
+@keyframes slide {
+  from {
+    bottom: 0;
+  }
+  to {
+    bottom: 10px;
+  }
+}

@@ -1,0 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+:root {
+  --bg-primary: #2b0996;
+  --font-landing: "Poppins", sans-serif;
+  --font-primary: "Montserrat", sans-serif;
+  --color-curves: #6b53b5;
+  --font-title: #2a1452;
+  --font-color-primary: #70697b;
+  --font-color-secondary: #ff5f7c;
+}

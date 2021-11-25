@@ -1,0 +1,58 @@
+@import "../../ui/constant/var.css";
+.landing {
+  font-family: var(--font-primary);
+  height: 100vh;
+  width: 100%;
+  background: var(--bg-primary);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("../../../assets/landing/landing\ bg\ copy.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.landing-conatiner {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.landing-hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.landing-name {
+  color: #ff5f7c;
+}
+.landing-heading h1 {
+  margin-top: 0;
+  font-family: var(--font-landing);
+  color: white;
+  font-size: 6rem;
+  font-weight: 600;
+  line-height: 6rem;
+}
+.landing-caption p {
+  color: white;
+  font-size: 1.5rem;
+}
+.landing-nav {
+  margin-top: 4rem;
+}
+.landing-nav button {
+  cursor: pointer;
+  background: transparent;
+  border: 2px solid white;
+  color: white;
+  height: 50px;
+  padding: 10px 2rem;
+  font-size: 1rem;
+  border-radius: 15px;
+}
+/* .landing-nav button:hover {
+  -webkit-box-shadow: 0px 0px 19px 0px rgba(218, 235, 230, 0.9);
+  -moz-box-shadow: 0px 0px 19px 0px rgba(218, 235, 230, 0.9);
+  box-shadow: 0px 0px 19px 0px rgba(218, 235, 230, 0.9);
+} */
